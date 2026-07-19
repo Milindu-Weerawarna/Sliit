@@ -1,4 +1,4 @@
-﻿# Sliit Username Validator
+﻿# Username Validator
 
 A small Python learning project for implementing and testing reusable username validation.
 
