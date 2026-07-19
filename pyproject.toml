@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=75"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "sliit-username-validator"
+version = "0.1.0"
+description = "A small username-validation exercise project"
+requires-python = ">=3.10"
+
+[project.optional-dependencies]
+test = ["pytest>=9.0,<10"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]
